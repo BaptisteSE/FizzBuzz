@@ -19,6 +19,11 @@ class FizzBuzz{
         }else{
             return $value;
         }
+        if($valueReturn !== null ){
+            return $valueReturn;
+        }else{
+            return $value;
+        }
     }
 }
 
